@@ -13,3 +13,4 @@ This project emphasizes the use of CSS layouts and CSS background & gradients.
 ## Contributors
 
 * Darshan - [Github Profile](https://github.com/daashandayo)
+* Raphael - [Github Profile](https://github.com/oghenebrume50)

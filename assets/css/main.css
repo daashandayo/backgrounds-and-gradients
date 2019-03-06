@@ -10,8 +10,29 @@ Navbar
 ===========================
 */
 .nav-bar {
-  width: 60%;
-  border: 1px solid red;
+  position: relative;
+  top: 1.5em;
+  max-width: 60em;
+  border-radius:  .5em;
+  background: rgb(99,99,99);
+  background: linear-gradient(0deg, rgba(99,99,99,1) 50%, rgba(122,122,122,1) 50%);
+  padding:  .2em;
+  margin: 0 auto;
+}
+
+.nav-bar span {
+  display: inline-block;
+  margin-left: .2em;
+  padding: .1em 1.5em;
+  border: 2px solid rgb(99,99,99);
+}
+
+.nav-bar a {
+  color: #fff;
+}
+.nav-bar input {
+  width: 7em;
+  border-radius: 1em;
 }
 
 .container {

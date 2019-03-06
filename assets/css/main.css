@@ -1,15 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*
+===========================
+Navbar
+===========================
+*/
+.nav-bar {
+  width: 60%;
+  border: 1px solid red;
+}
+
 .container {
-    background-image: url('../images/hero.jpg');
-    width: 100%;
-    height: 100vh;
-    background-position: center bottom;
+  background-image: url("../images/hero.jpg");
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  background-position: center bottom;
 }
 
 .promo-container {
-    
 }
 
 .promo-container img {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
+  border-right: 0.1em solid #fff;
+  border-top: 0.1em solid #fff;
 }

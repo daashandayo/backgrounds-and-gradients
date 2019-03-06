@@ -1,9 +1,20 @@
+/*====================
+  Container
+======================*/
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
+.container {
+  position: relative;
+  background-image: url("../images/hero.jpg");
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  background-position: center -770px;
+}
 /*
 ===========================
 Navbar
@@ -13,6 +24,7 @@ Navbar
   position: relative;
   top: 1.5em;
   max-width: 60em;
+  min-width: 60em;
   border-radius:  .5em;
   background: rgb(107,107,107);
   background: linear-gradient(180deg, rgba(107,107,107,1) 1%, rgba(122,122,122,1) 50%, rgba(99,99,99,1) 50%, rgba(139,139,139,1) 99%);
@@ -28,13 +40,15 @@ Navbar
 }
 
 .nav-bar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: .1em solid #595959;
   min-width: 103px;
   height: 100%;
   color: #fff;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 .nav-bar a:hover{
@@ -44,19 +58,27 @@ Navbar
 .nav-bar input {
   width: 7em;
   border-radius: 1em;
+  margin: 6px auto;
 }
 
-.container {
-  background-image: url("../images/hero.jpg");
-  max-width: 1440px;
-  margin: 0 auto;
-  height: 100vh;
-  background-position: center bottom;
+/*=========================
+Body
+===========================*/
+article {
+  position: absolute;
+  top: 8em;
+  left: 15em;
+}
+
+.inscriptions img {
+  margin-bottom: 1em;
 }
 
 .promo-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-
 .promo-container img {
   float: left;
   width: 25%;

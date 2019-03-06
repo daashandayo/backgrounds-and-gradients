@@ -8,12 +8,13 @@
 }
 
 .container {
-  position: relative;
+  /* position: relative; */
   background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
   max-width: 1440px;
   margin: 0 auto;
-  height: 100vh;
-  background-position: center -770px;
+  min-height: 100vh;
+  background-position: center -775px;
 }
 /*
 ===========================
@@ -65,23 +66,44 @@ Navbar
 Body
 ===========================*/
 article {
-  position: absolute;
-  top: 8em;
-  left: 15em;
+  position: relative;
+  height: 66vh;
 }
 
-.inscriptions img {
-  margin-bottom: 1em;
-}
 
-.promo-container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 .promo-container img {
   float: left;
   width: 25%;
   border-right: 0.1em solid #fff;
   border-top: 0.1em solid #fff;
 }
+
+.small-1{
+  position: absolute;
+  top: 7.2em;
+  left: 14.3em;
+}
+
+.small-2{
+  position: absolute;
+  top: 13.1em;
+  left: 14.3em;
+}
+
+.small-3{
+  position: absolute;
+  top: 19.9em;
+  left: 14.3em;
+  height: 2em;
+  overflow: hidden;
+  cursor: pointer;
+}
+.small-3:hover img{
+  margin-top: -2em;
+}
+
+.promo-container {
+  bottom: 0;
+  width: 100%;
+}
+

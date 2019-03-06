@@ -4,3 +4,12 @@
     height: 100vh;
     background-position: center bottom;
 }
+
+.promo-container {
+    
+}
+
+.promo-container img {
+    float: left;
+    width: 25%;
+}

@@ -9,9 +9,10 @@
 
 .container {
   /* position: relative; */
-  background-image: url("../images/hero.jpg");
+  background-image: url("https://res.cloudinary.com/daashandayo/image/upload/v1552037068/hero.jpg");
   background-repeat: no-repeat;
-  max-width: 1440px;
+  /* max-width: 1440px; */
+  min-width: 60em;
   margin: 0 auto;
   min-height: 100vh;
   background-position: center -775px;
